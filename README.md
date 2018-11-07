@@ -22,3 +22,10 @@ npm run build
 
 ### vue.config.js配置文档
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### 参考文档及案例
+```
+https://github.com/PanJiaChen/vue-element-admin/blob/master/README.zh-CN.md
+https://panjiachen.github.io/vue-element-admin-site/zh/guide/      
+```
+
