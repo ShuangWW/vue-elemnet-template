@@ -1,29 +1,24 @@
-# backage-9
+# vue-elemnet-template
 
-## Project setup
+## 构建步骤
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+cnpm install -g @vue/cli                全局安装cli3脚手架
+vue create vue-element-template         创建文件夹
+cd vue-element-template                 进入文件夹
+vue add element                         引入element-ui
 ```
 
-### Compiles and minifies for production
+### 下载源码运行步骤
 ```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
+npm install         
+npm run serve       
 ```
 
-### Lints and fixes files
+### 打包
 ```
-npm run lint
+npm run build       
 ```
 
-### Customize configuration
+
+### vue.config.js配置文档
 See [Configuration Reference](https://cli.vuejs.org/config/).

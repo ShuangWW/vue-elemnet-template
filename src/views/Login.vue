@@ -1,7 +1,7 @@
 <template>
     <div class="login-container">
         <el-form ref="loginForm" :model="loginForm" :rules="loginRules" class="login-form" auto-complete="on" label-position="left">
-            <h4 class="title">九大爷综合管理平台</h4>
+            <h4 class="title">综合管理平台</h4>
             <el-form-item prop="username">
                 <el-input v-model="loginForm.username" auto-complete="on" placeholder="账户" />
             </el-form-item>
@@ -46,7 +46,6 @@ export default {
             this.$refs.loginForm.validate(valid => {
                 if (valid) {
                     this.loading = true
-                    // this.$router.push({ name:'Home' })
                     this.$store.dispatch('Login', this.loginForm).then(() => {
                         this.loading = false
                         this.$router.push({ name:'Home' })
